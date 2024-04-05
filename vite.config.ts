@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path';
 
 export default defineConfig({
-  base: 'https://mypymypy.github.io/hh-test-spb-weather/',
+  base: 'https://mypymypy.github.io/spb-weather/',
   plugins: [
     react(),
   ],

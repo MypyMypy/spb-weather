@@ -1,7 +1,7 @@
 import { constantsMap } from './constants';
-import { weatherItemI } from './types';
+import { WeatherItemI } from './types';
 
-export function transformDataWeatherByCity(data: weatherItemI) {
+export function transformDataWeatherByCity(data: WeatherItemI) {
   const date = new Date(data.dt * 1000);
   const hours = date.getHours();
   const day = date.getDate();
